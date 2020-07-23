@@ -25,4 +25,4 @@ ADD . /app
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 # Run app.py when the container launches
-CMD ["python", "rmq_postgres_comander.py"]
+CMD ["python", "rmq_postgres_commander.py"]
