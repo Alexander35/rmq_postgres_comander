@@ -27,8 +27,8 @@ config['postgres_username'] = os.environ.get('DEVICE_CONFIG_BACKUP_DB_USER_NAME'
 config['postgres_password'] = os.environ.get('DEVICE_CONFIG_BACKUP_DB_PASSWORD', 'postgres_password')
 config['postgres_host_name'] = os.environ.get('DEVICE_CONFIG_BACKUP_HOST_ADDRESS', '')
 config['rmq_host'] = os.environ.get('RMQ_HOST', '')
-config['postgres_commander_rmq_exchange'] = os.environ.get('POSTGRES_COMMANDER_RMQ_EXCHANGE', '')
-config['postgres_commander_rmq_queue_in'] = os.environ.get('POSTGRES_COMMANDER_RMQ_QUEUE_IN', '')
+config['rmq_exchange'] = os.environ.get('POSTGRES_COMMANDER_RMQ_EXCHANGE', '')
+config['rmq_queue_in'] = os.environ.get('POSTGRES_COMMANDER_RMQ_QUEUE_IN', '')
 
 config['easy_crossing_post_address'] = os.environ.get('EASY_CROSSING_POST_ADDRESS', '')
 
